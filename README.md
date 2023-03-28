@@ -50,6 +50,29 @@
     所以返回的结果是44，即字符串"101100"的十进制值。
     
     (这种方法真的很妙，一般我做这种题目都是先把101100转成一个整数然后计算pow(2,5) + pow(2,3) + pow(2,2)的值，从没想过可以这么操作[捂脸])
+    
+    02.
+    /*移动一维数组中的内容，若数组中有n个整数，要求把下标从 0-p(n-1)的数组元素平移到数组最后*/
+    /*若数组原始内容为：     1，2，3，4，5，6，7，8，9，10. | p = 3*/
+    /*则移动后的数组内容为： 5，6，7，8，9，10，1，2，3，4*/
+    void Move_Array_Element(int *array, int p, int arr_size)
+    {
+        int move_loop = 0;
+        int array_index = 0;
+        int array_element = 0;
+
+        for (move_loop = 0; move_loop <= p; ++move_loop)
+        {
+            array_element = array[0];
+
+            for (array_index = 1; array_index < arr_size; ++array_index)
+            {
+                array[array_index - 1] = array[array_index];
+            }
+
+            array[arr_size - 1] = array_element;
+        }
+    }
 
 License
 -----------------------------------------------------------------------------------------------------------------
