@@ -1,0 +1,2 @@
+# Some_simple_algorithm_questions
+计算机二级C语言程序设计编程题
