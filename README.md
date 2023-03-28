@@ -14,23 +14,21 @@
 ----------------------------------------------------------------------------------------------------------------
 01.
     /*将一个只有0或1组成的字符串转换成十进制 例：传入"101100" 返回 44*/
-    int Change_Bin_To_Dec(char *str)
-    {
-        int index, dec_number = 0;
-
-
-        for (index = 0; str[index] != '\0'; ++index)
-        {
-        
-            dec_number = dec_number * 2 + (str[index] - '0');
-        }        
-        
-
-
-        return dec_number;
-    }
     
-    函数采用循环来遍历给定的二进制字符串。对于每一个字符，做如下处理：
+     int Change_Bin_To_Dec(char *str)
+     {
+         int index, dec_number = 0;
+
+         for (index = 0; str[index] != '\0'; ++index)
+         {
+
+             dec_number = dec_number * 2 + (str[index] - '0');
+         }        
+
+         return dec_number;
+     }
+    
+    该函数采用循环来遍历传入的二进制字符串。对于每一个字符，做如下处理：
 
     通过乘以2来移动当前的十进制数，因为在二进制数中，每一个位上的数都是2的幂次方。
     
