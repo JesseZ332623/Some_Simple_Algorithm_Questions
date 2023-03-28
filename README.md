@@ -7,7 +7,7 @@
  文件说明：
  ---------------------------------------------------------------------------------------------------------------
  
-    Functions.c     我刷过的二级算法题
+    Functions.c     我刷过的二级编程题
     
 
 一些有趣的题目：
@@ -18,10 +18,14 @@
     {
         int index, dec_number = 0;
 
+
         for (index = 0; str[index] != '\0'; ++index)
         {
+        
             dec_number = dec_number * 2 + (str[index] - '0');
-        }
+        }        
+        
+
 
         return dec_number;
     }
