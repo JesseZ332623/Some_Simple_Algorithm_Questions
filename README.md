@@ -38,12 +38,12 @@
 
     如果输入二进制字符串为"101100"，那么循环的过程如下：
 
-    index = 0时，dec_number = 0*2+1 = 1
-    index = 1时，dec_number = 1*2+0 = 2
-    index = 2时，dec_number = 2*2+1 = 5
-    index = 3时，dec_number = 5*2+1 = 11
-    index = 4时，dec_number = 11*2+0 = 22
-    index = 5时，dec_number = 22*2+0 = 44
+      index = 0时，dec_number = 0*2+1 = 1
+      index = 1时，dec_number = 1*2+0 = 2
+      index = 2时，dec_number = 2*2+1 = 5
+      index = 3时，dec_number = 5*2+1 = 11
+      index = 4时，dec_number = 11*2+0 = 22
+      index = 5时，dec_number = 22*2+0 = 44
     
     所以返回的结果是44，即字符串"101100"的十进制值。
     
