@@ -16,7 +16,7 @@
     01.
     /*将一个只有0或1组成的字符串转换成十进制 例：传入"101100" 返回 44*/
          
-    int Change_Bin_To_Dec(char *str)
+    '''int Change_Bin_To_Dec(char *str)
     {
         int index, dec_number = 0;
 
@@ -27,7 +27,7 @@
         }        
 
             return dec_number;
-    }//C
+    }'''//C
      
     
     这个函数采用循环来遍历传入的二进制字符串。对于每一个字符，做如下处理：
