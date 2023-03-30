@@ -307,7 +307,5 @@ int main(int argc, char const *argv[])
     printf("#[%s]\n", __FILE__);
     printf("#[%s] [%s]\n", __DATE__, __TIME__);
 
-    printf("%d", Find_Charector_In_String("gfdh47dbs134"));
-
     return 0;
 }
