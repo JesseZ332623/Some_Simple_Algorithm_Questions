@@ -1,3 +1,8 @@
+/*Functions.c*/
+
+/*Create by Jesse_EC on 2023.3.30*/
+/*Copyright © 2023 Jesse_EC All rights reserved.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
