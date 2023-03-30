@@ -1,6 +1,6 @@
 /*Functions.c*/
 
-/*Create by Jesse_EC on 2023.3.30*/
+/*Create by Jesse_EC on 2023.3.28*/
 /*Copyright © 2023 Jesse_EC All rights reserved.*/
 
 #include <stdio.h>
