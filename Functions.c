@@ -302,6 +302,16 @@ int Find_Charector_In_String(const char *string)
     return number_index;
 }
 
+void Down_String(char *string)
+{
+    if (*string)
+    {
+        Down_String(string + 1);
+
+        printf("%c", *string);
+    }
+}
+
 int main(int argc, char const *argv[])
 {
     printf("#[%s]\n", __FILE__);
