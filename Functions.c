@@ -22,7 +22,7 @@ int *Get_Number_Digite_Value(long int number);
 void _Get_New_Strings(char *s, char t[]);
 int Find_Charector_In_String(const char *string);
 char *Delete_String_Element(char *string, char delete_element, int str_size);
-void Down_String(char *string);
+void Down_String(const char *string);
 
 /*将目标字符串索引为奇数的字母转化为大写*/
 void Be_Big(char *str)
@@ -303,7 +303,7 @@ int Find_Charector_In_String(const char *string)
     return number_index;
 }
 
-void Down_String(char *string)
+void Down_String(const char *string)
 {
     if (*string)
     {
