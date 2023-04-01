@@ -107,8 +107,8 @@
     
     03.
 ```C
-    /*翻转字符串 传入："QWERTYUI" 传出："IUYTREWQ"*/
-    void Down_String(char *string)
+    /*翻转字符串 传入："QWERTYUI" 输出："IUYTREWQ"*/
+    void Down_String(const char *string)
     {
         if (*string)
         {
@@ -118,7 +118,9 @@
         }
     }
 ```
-
+    该函数采用了递归的方法倒序输出字符串。
+    传入字符串后，若发现该字符串没有到末尾'\0'（空字符），则将该字符串指针向右偏转一位后再次传入该函数，直至字符串末尾。
+    到达字符串末尾后，递归逐级返回，倒叙输出传入的字符串。
 
 
 License
