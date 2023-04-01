@@ -102,6 +102,20 @@
     tips:该函数的循环次数为p+1，而非p次。
     这是因为每次循环都将数组的第一个元素移动到数组的最后一个元素，则总共需要移动p个元素，
     并且最后一次移动将数组的第一个元素移动到最后一个元素的位置，因此需要循环p+1次。
+    
+    03.
+```C
+    /*翻转字符串 传入："QWERTYUI" 传出："IUYTREWQ"*/
+    void Down_String(char *string)
+    {
+        if (*string)
+        {
+            Down_String(string + 1);
+
+            printf("%c", *string);
+        }
+    }
+```
 
 
 
